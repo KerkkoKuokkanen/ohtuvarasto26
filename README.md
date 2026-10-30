@@ -1,2 +1,3 @@
 # ohtuvarasto26
-Ohjlemistotuotanto kurssi
+
+![Testi badge](https://github.com/KerkkoKuokkanen/ohtuvarasto26/actions/workflows/main.yml/badge.svg)

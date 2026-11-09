@@ -6,10 +6,8 @@ class Varasto:
             self.tilavuus = 0.0
         if alku_saldo < 0.0:
             self.saldo = 0.0
-        elif alku_saldo <= tilavuus:
-            self.saldo = alku_saldo
         else:
-            self.saldo = tilavuus
+            self.saldo = min(tilavuus, alku_saldo)
 
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
